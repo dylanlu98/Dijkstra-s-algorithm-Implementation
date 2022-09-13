@@ -2,13 +2,13 @@
 ## Summary
 I implemented an important path-planning algorithms: Dijkstra's algorithm in this project. 
 
-Step 1
-  Read in a graph representation from a file.
-Step 2
-  Use Dijkstra's algorithm to calculate the shortest path from a start to
+1. Step 1
+    * Read in a graph representation from a file.
+2. Step 2
+    * Use Dijkstra's algorithm to calculate the shortest path from a start to
   goal node.
-Step 3
-  Use Dijkstra's algorithm to calculate the shortest path when there are
+3. Step 3
+    * Use Dijkstra's algorithm to calculate the shortest path when there are
   obstacles.
 
 * Input1: grid map
