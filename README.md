@@ -11,23 +11,23 @@ Step 3
   Use Dijkstra's algorithm to calculate the shortest path when there are
   obstacles.
 
-*Input1: grid map
+* Input1: grid map
 
-(0,0) (0.5,0) (1,0) (0,0.5) (0.5,0.5) (1,0.5) 
-0: 1,0.5 3,0.5 4,0.707107
-1: 0,0.5 2,0.5 3,0.707107 4,0.5 5,0.707107
-2: 1,0.5 4,0.707107 5,0.5
-3: 0,0.5 1,0.707107 4,0.5
-4: 0,0.707107 1,0.5 2,0.707107 3,0.5 5,0.5
-5: 1,0.707107 2,0.5 4,0.5
+** (0,0) (0.5,0) (1,0) (0,0.5) (0.5,0.5) (1,0.5) 
+** 0: 1,0.5 3,0.5 4,0.707107
+** 1: 0,0.5 2,0.5 3,0.707107 4,0.5 5,0.707107
+** 2: 1,0.5 4,0.707107 5,0.5
+** 3: 0,0.5 1,0.707107 4,0.5
+** 4: 0,0.707107 1,0.5 2,0.707107 3,0.5 5,0.5
+** 5: 1,0.707107 2,0.5 4,0.5
 
-*input 2: obstacle file
+* Input2: obstacle file
 
-$obstacles
-2 14 9
+** $obstacles
+** 2 14 9
 
-*Input grid map and obstacle file, the best path output:
+* Input grid map and obstacle file, the best path output:
 
-0 6 13 20 21 22 23 : 3.18062
+** 0 6 13 20 21 22 23 : 3.18062
 
-* See testing for other tests
+* See testing for other grid maps and obstacle combination
