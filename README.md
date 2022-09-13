@@ -1,4 +1,4 @@
-# Dijkstra Implementation
+# Dijkstra's algorithm Implementation
 ## Summary
 I implemented an important path-planning algorithm: Dijkstra's algorithm in this project. 
 
