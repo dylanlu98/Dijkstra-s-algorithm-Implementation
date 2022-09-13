@@ -2,12 +2,12 @@
 ## Summary
 I implemented an important path-planning algorithm: Dijkstra's algorithm in this project. 
 
-1. Step 1
+1. Step 1 (step1.cpp)
     * Read in a graph representation from a file.
-2. Step 2
+2. Step 2 (step2.cpp)
     * Use Dijkstra's algorithm to calculate the shortest path from a start to
   goal node.
-3. Step 3
+3. Step 3 (step3.cpp)
     * Use Dijkstra's algorithm to calculate the shortest path when there are
   obstacles.
 
