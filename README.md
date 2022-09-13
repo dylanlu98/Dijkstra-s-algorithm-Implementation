@@ -1,6 +1,6 @@
 # Dijkstra Implementation
 ## Summary
-I implemented an important path-planning algorithms: Dijkstra's algorithm in this project. 
+I implemented an important path-planning algorithm: Dijkstra's algorithm in this project. 
 
 1. Step 1
     * Read in a graph representation from a file.
