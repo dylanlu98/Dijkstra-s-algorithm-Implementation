@@ -27,4 +27,4 @@ I implemented an important path-planning algorithm: Dijkstra's algorithm in this
 * Input grid map and obstacle file, the best path output:
     * 0 6 13 20 21 22 23 : 3.18062
 
-* See TESTOMG.txt file for other grid maps and obstacle combination
+* See TESTING.txt file for other grid maps and obstacle combination
