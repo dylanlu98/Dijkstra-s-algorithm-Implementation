@@ -1,0 +1,15 @@
+CPPFLAGS=-std=c++11 -pedantic -Wall -Werror -ggdb3
+all: step1 step2 step3 step4
+step1: step1.cpp
+	g++ -o step1 -std=gnu++98 -Wall -Werror -ggdb3 step1.cpp
+step2: step2.cpp
+	g++ -o step2 -std=gnu++98 -Wall -Werror -ggdb3 step2.cpp
+step3: step3.cpp
+	g++ -o step3 -std=gnu++98 -Wall -Werror -ggdb3 step3.cpp
+step4: step4.cpp
+	g++ -o step4 -std=gnu++98 -Wall -Werror -ggdb3 step4.cpp
+
+.PHONY: clean
+clean:
+	rm -r *.o *~ find_quals
+
